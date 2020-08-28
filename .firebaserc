@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "mykoriak-52dee"
+  },
+  "targets": {
+    "mykoriak-52dee": {
+      "hosting": {
+        "mykoriak": [
+          "mykoriak"
+        ]
+      }
+    }
+  }
+}
