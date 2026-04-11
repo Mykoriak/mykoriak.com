@@ -17,12 +17,12 @@
     <nav class="nav">
       <a href="#" class="nav__logo">Ivan Mykoriak</a>
       <ul class="nav__links" id="nav-links">
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#languages">Languages</a></li>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#experience"><span class="nav__hash">#</span>experience</a></li>
+        <li><a href="#education"><span class="nav__hash">#</span>education</a></li>
+        <li><a href="#certifications"><span class="nav__hash">#</span>certifications</a></li>
+        <li><a href="#languages"><span class="nav__hash">#</span>languages</a></li>
+        <li><a href="#built-with"><span class="nav__hash">#</span>built-with</a></li>
+        <li><a href="#contact"><span class="nav__hash">#</span>contacts</a></li>
       </ul>
       <a href="ua.html" class="nav__lang">UA</a>
       <button class="nav__burger" id="nav-burger" aria-label="Toggle menu" aria-expanded="false">
@@ -43,8 +43,13 @@
 
   <!-- EXPERIENCE -->
   <section class="section" id="experience">
+    <div class="decor decor--dots" style="top: 2rem; right: 5%;"></div>
+    <div class="decor decor--square" style="bottom: 3rem; left: 3%;"></div>
     <div class="container">
-      <h2 class="section__title">Experience</h2>
+      <div class="section__header">
+        <h2 class="section__title"><span class="hash">#</span>experience</h2>
+        <div class="section__line"></div>
+      </div>
       <div class="timeline">
         <article class="card">
           <span class="card__date">2016 — Present</span>
@@ -66,9 +71,14 @@
   </section>
 
   <!-- EDUCATION -->
-  <section class="section section--alt" id="education">
+  <section class="section" id="education">
+    <div class="decor decor--cross" style="top: 4rem; left: 8%;"></div>
+    <div class="decor decor--corner-br" style="bottom: 2rem; right: 4%;"></div>
     <div class="container">
-      <h2 class="section__title">Education</h2>
+      <div class="section__header">
+        <h2 class="section__title"><span class="hash">#</span>education</h2>
+        <div class="section__line"></div>
+      </div>
       <div class="cards-grid">
         <article class="card">
           <span class="card__date">2015 — 2017</span>
@@ -86,8 +96,12 @@
 
   <!-- CERTIFICATIONS -->
   <section class="section" id="certifications">
+    <div class="decor decor--dots" style="top: 3rem; left: 4%;"></div>
     <div class="container">
-      <h2 class="section__title">Certifications</h2>
+      <div class="section__header">
+        <h2 class="section__title"><span class="hash">#</span>certifications</h2>
+        <div class="section__line"></div>
+      </div>
       <div class="cards-grid">
         <article class="card">
           <span class="card__date">2019</span>
@@ -99,9 +113,14 @@
   </section>
 
   <!-- LANGUAGES -->
-  <section class="section section--alt" id="languages">
+  <section class="section" id="languages">
+    <div class="decor decor--square" style="top: 2rem; right: 6%;"></div>
+    <div class="decor decor--line" style="bottom: 3rem; left: 10%;"></div>
     <div class="container">
-      <h2 class="section__title">Languages</h2>
+      <div class="section__header">
+        <h2 class="section__title"><span class="hash">#</span>languages</h2>
+        <div class="section__line"></div>
+      </div>
       <div class="cards-grid">
         <article class="card">
           <h3 class="card__title">English</h3>
@@ -117,8 +136,13 @@
 
   <!-- BUILT WITH -->
   <section class="section" id="built-with">
+    <div class="decor decor--corner" style="top: 3rem; right: 5%;"></div>
+    <div class="decor decor--cross" style="bottom: 4rem; left: 6%;"></div>
     <div class="container">
-      <h2 class="section__title">Built With</h2>
+      <div class="section__header">
+        <h2 class="section__title"><span class="hash">#</span>built-with</h2>
+        <div class="section__line"></div>
+      </div>
       <div class="built-with">
         <blockquote class="built-with__quote">
           This site was built with Claude AI and my mind. I believe in the near future, the role of programmers will change completely — and I'm embracing that evolution.
@@ -132,9 +156,13 @@
   </section>
 
   <!-- CONTACT -->
-  <section class="section section--alt" id="contact">
+  <section class="section" id="contact">
+    <div class="decor decor--dots" style="bottom: 3rem; right: 3%;"></div>
     <div class="container">
-      <h2 class="section__title">Contact</h2>
+      <div class="section__header">
+        <h2 class="section__title"><span class="hash">#</span>contacts</h2>
+        <div class="section__line"></div>
+      </div>
       <div class="contact-links">
         <a href="mailto:herroartes@gmail.com" class="contact-link">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
@@ -164,7 +192,18 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p class="footer__text">&copy; 2026 Ivan Mykoriak. All rights reserved.</p>
+      <p class="footer__text">&copy; 2026 Ivan Mykoriak</p>
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/in/mykoriak/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/Mykoriak/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="mailto:herroartes@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+        </a>
+      </div>
     </div>
   </footer>
 
