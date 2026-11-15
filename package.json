@@ -21,7 +21,8 @@
     "lint:js": "eslint ./src/**/*.{ts,tsx}",
     "lint:fix": "yarn lint:js --fix",
     "type-check": "tsc",
-    "deploy": "react-scripts build && firebase deploy --only hosting:mykoriak"
+    "deploy": "react-scripts build && firebase deploy --only hosting:mykoriak",
+    "deploy:kishenya": "firebase deploy --only hosting:kishenya"
   },
   "husky": {
     "hooks": {
