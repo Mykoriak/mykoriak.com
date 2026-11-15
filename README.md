@@ -23,26 +23,4 @@ python3 -m http.server 4173 --directory kishenya
 
 ### Deploy
 
-It is a second Firebase Hosting site in the same project (`mykoriak-52dee`), under the
-deploy target `kishenya`.
-
-One-time setup:
-
-1. Create the site. If the id `kishenya-mykoriak` is taken, pick another one and change
-   it in `.firebaserc`.
-
-   ```bash
-   firebase hosting:sites:create kishenya-mykoriak
-   ```
-
-2. Firebase console → Hosting → the `kishenya-mykoriak` site → **Add custom domain** →
-   `kishenya.mykoriak.com`, then add the DNS record it shows at the mykoriak.com DNS
-   host.
-
-Every deploy after that:
-
-```bash
-yarn deploy:kishenya
-```
-
-`yarn deploy` still deploys only the main site.
+The folder is static, so it can be uploaded as is to any static host.
